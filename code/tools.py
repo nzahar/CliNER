@@ -52,9 +52,9 @@ def clean_text(text):
 def normalize_tokens(toks):
     # todo: normalize dosages (icluding 8mg -> mg)
     # replace number tokens
-    def num_normalize(w):
-        return '__num__' if re.search('\d', w) else w
-    toks = list(map(num_normalize, toks))
+    # def num_normalize(w):
+    #     return '__num__' if re.search('\d', w) else w
+    # toks = list(map(num_normalize, toks))
     return toks
 
 
