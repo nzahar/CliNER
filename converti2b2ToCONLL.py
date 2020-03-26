@@ -30,9 +30,9 @@ for i in range(len(alltxts)):
 
     name_wo_ext = os.path.splitext(alltxts[i])[0]
 
-    if i < 130:
+    if i < 110:
         result_train += writeToResult(dirtxt + alltxts[i], dircon + name_wo_ext + ".con")
-    elif i < 150:
+    elif i < 140:
         result_test += writeToResult(dirtxt + alltxts[i], dircon + name_wo_ext + ".con")
     elif i < 170:
         result_val += writeToResult(dirtxt + alltxts[i], dircon + name_wo_ext + ".con")
