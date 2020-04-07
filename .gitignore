@@ -48,3 +48,5 @@ nosetests.xml
 *.fdb_latexmk
 *.synctex.gz
 paper.pdf
+
+.idea/workspace.xml
